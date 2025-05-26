@@ -8,6 +8,10 @@
 build/
 ios/Flutter/Flutter.framework
 ios/Flutter/Flutter.podspec
+linux/
+macos/
+web/
+windows/
 
 # IDEs
 .vscode/
