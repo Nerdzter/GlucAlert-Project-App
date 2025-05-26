@@ -1,0 +1,56 @@
+# Flutter & Dart
+.dart_tool/
+.packages
+.pub/
+.pub-cache/
+build/
+generated_plugin_registrant.dart
+
+# Flutter iOS
+ios/Flutter/Flutter.framework
+ios/Flutter/Flutter.podspec
+ios/.symlinks/
+ios/Pods/
+ios/Runner.xcworkspace/
+ios/Flutter/ephemeral/
+Flutter/ephemeral/
+
+# Flutter Android
+android/.gradle/
+android/.idea/
+android/local.properties
+android/**/gradle-wrapper.jar
+android/key.properties
+
+# macOS
+*.DS_Store
+
+# Web
+web/.dart_tool/
+
+# VSCode
+.vscode/
+*.code-workspace
+
+# IntelliJ / Android Studio
+*.iml
+.idea/
+*.ipr
+*.iws
+
+# Logs & Misc
+*.log
+*.tmp
+*.swp
+*.lock
+
+# Firebase / Fastlane
+firebase.json
+ios/fastlane/report.xml
+ios/fastlane/Preview.html
+android/fastlane/report.xml
+android/fastlane/Preview.html
+
+# Symbol & obfuscation
+*.symbols
+*.map.json
