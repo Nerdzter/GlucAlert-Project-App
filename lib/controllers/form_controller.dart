@@ -1,6 +1,7 @@
 // controllers/form_controller.dart
 import 'package:flutter/material.dart';
 import '../widgets/question_card.dart';
+import '../screens/home_main_screen.dart';
 
 class FormController {
   int _currentIndex = 0;
@@ -152,7 +153,14 @@ class FormController {
       _currentIndex++;
     } else {
       debugPrint('Finalizado: $answers');
-      Navigator.pop(context, answers);
+      Navigator.pushReplacement(
+        context,
+        MaterialPageRoute(
+          builder: (_) => HomeMainScreen(answers: answers),
+
+        ),
+      );
+
     }
   }
 

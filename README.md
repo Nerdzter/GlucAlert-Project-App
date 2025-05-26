@@ -19,17 +19,18 @@ O **GlucAlert** é um app mobile + hardware que monitora sinais vitais com foco 
 
 ## 📦 Tecnologias Utilizadas
 
-| Categoria        | Tecnologias               |
-|------------------|---------------------------|
-| Frontend         | Flutter + Dart            |
+| Categoria        | Tecnologias                  |
+|------------------|------------------------------|
+| Frontend         | Flutter + Dart               |
 | Banco de Dados   | Hive (local, criptografável) |
-| Relatórios PDF   | Syncfusion Flutter PDF    |
-| Gráficos         | fl_chart                  |
+| Relatórios PDF   | Syncfusion Flutter PDF       |
+| Gráficos         | fl_chart                     |
 | Conexão Hardware | usb_serial (USB-C com ESP32) |
 
 ---
 
 ## 📁 Estrutura do Projeto
+
 
 ```
 lib/

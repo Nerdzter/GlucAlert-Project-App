@@ -1,7 +1,12 @@
 // screens/onboarding_form_screen.dart
 import 'package:flutter/material.dart';
-import '../widgets/question_card.dart';
 import '../controllers/form_controller.dart';
+
+// mantenha esse se não houver conflito aqui
+
+
+
+
 
 class OnboardingFormScreen extends StatefulWidget {
   const OnboardingFormScreen({super.key});
@@ -15,12 +20,14 @@ class _OnboardingFormScreenState extends State<OnboardingFormScreen> {
 
   @override
   Widget build(BuildContext context) {
-    final question = formController.currentQuestion;
+    final Question question = formController.currentQuestion;
+
     return Scaffold(
       backgroundColor: Colors.white,
       body: SafeArea(
         child: Column(
           children: [
+            // Topo com botão de voltar e barra de progresso
             Padding(
               padding: const EdgeInsets.all(16),
               child: Row(
@@ -47,6 +54,8 @@ class _OnboardingFormScreenState extends State<OnboardingFormScreen> {
                 ],
               ),
             ),
+
+            // Corpo da pergunta e input
             Expanded(
               child: Padding(
                 padding: const EdgeInsets.all(24),
@@ -61,7 +70,10 @@ class _OnboardingFormScreenState extends State<OnboardingFormScreen> {
                       textAlign: TextAlign.center,
                     ),
                     const SizedBox(height: 40),
-                    question.builder(context, (value) => setState(() => formController.submit(value, context))),
+                    question.builder(
+                      context,
+                      (value) => setState(() => formController.submit(value, context)),
+                    ),
                   ],
                 ),
               ),
