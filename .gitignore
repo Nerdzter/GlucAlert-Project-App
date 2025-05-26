@@ -1,56 +1,54 @@
-# Flutter & Dart
+# Flutter/Dart
 .dart_tool/
 .packages
-.pub/
+.flutter-plugins
+.flutter-plugins-dependencies
+.melos_tool/
 .pub-cache/
 build/
-generated_plugin_registrant.dart
-
-# Flutter iOS
 ios/Flutter/Flutter.framework
 ios/Flutter/Flutter.podspec
-ios/.symlinks/
-ios/Pods/
-ios/Runner.xcworkspace/
-ios/Flutter/ephemeral/
-Flutter/ephemeral/
 
-# Flutter Android
-android/.gradle/
-android/.idea/
-android/local.properties
-android/**/gradle-wrapper.jar
-android/key.properties
-
-# macOS
-*.DS_Store
-
-# Web
-web/.dart_tool/
-
-# VSCode
+# IDEs
 .vscode/
-*.code-workspace
-
-# IntelliJ / Android Studio
-*.iml
 .idea/
+
+# Android Studio/IntelliJ
+*.iml
 *.ipr
 *.iws
+*.bak
 
-# Logs & Misc
+# VS Code
+*.code-workspace
+
+# Arquivos do sistema
+*.DS_Store
 *.log
-*.tmp
 *.swp
+*.tmp
 *.lock
 
-# Firebase / Fastlane
-firebase.json
-ios/fastlane/report.xml
-ios/fastlane/Preview.html
-android/fastlane/report.xml
-android/fastlane/Preview.html
+# Arquivos gerados por builds
+android/.gradle/
+android/app/build/
+ios/Pods/
+ios/.symlinks/
+ios/Flutter/App.framework
+ios/Flutter/Flutter.framework
+ios/Flutter/Generated.xcconfig
 
-# Symbol & obfuscation
-*.symbols
-*.map.json
+# Arquivos que você pode reconstruir
+pubspec.lock
+
+# Arquivos pessoais de configuração
+*.jks
+*.keystore
+local.properties
+.env
+
+# Web/Desktop se não for usar
+web/
+linux/
+windows/
+macos/
