@@ -99,10 +99,7 @@ flutter run
 ## 👥 Contribuidores
 
 - **Nayderson Silva de Oliveira** — Programando Full-stack o aplicativo e toda a integração  
-  - Instagram: [@eunayderson](https://instagram.com/eunayderson)
-- **Cleber Malta** — Desenvolvendo todo o hardware e estrutura física  
-  - Instagram: [@clebermalta_](https://instagram.com/clebermalta_)
-
+  - Instagram: [@eunayderson](https://instagram.com/eunayderson
 ---
 
 ## 🚀 Propósito
